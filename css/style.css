@@ -3,8 +3,12 @@
 body {
   text-align: center;
   color: white;
-  background: grey;
+  background: #3d3d3d;
   font-family: "Titillium Web";
+}
+
+hr {
+  border: 3px solid #a6a6a6;
 }
 
 .navi-containter {
@@ -39,11 +43,6 @@ ul.navi {
   background-color: #0f0f0f;
 }
 
-.topic-head {
-  background: #6b6b6b;
-  font-family: "Mansalva";
-}
-
 .toplink {
   display: inline-block;
   background: #6b6b6b;
@@ -54,14 +53,47 @@ ul.navi {
   color: white;
 }
 
+.toplink:hover {
+  background-color: #0f0f0f;
+}
+
 .copyright {
   font-family: "Verdana";
   color: black;
   font-size: small;
 }
 
-.toplink:hover {
-  background-color: #0f0f0f;
+.topic-head {
+  background: #525252;
+  font-family: "Mansalva";
+}
+
+.topic-info {
+  font-size: large;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 3vh;
+  width: 120vh;
+  background-color: #525252;
+  font-weight: bold;
+}
+
+.topic-subhead {
+  margin: 0 auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background: #4d4d4d;
+  font-family: "Mansalva";
+  width: 90%;
+}
+
+.topic-subhead2 {
+  margin: 0 auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background: #4d4d4d;
+  //font-family: "Mansalva";
+  width: 40%;
 }
 
 .resumebody ul {
@@ -97,14 +129,4 @@ ul.navi {
 }
 .resume.accomplishments {
   background: #7d7156;
-}
-
-.topic-info {
-  font-size: large;
-  margin: 0 auto;
-  border-radius: 15px;
-  padding: 3vh;
-  width: 120vh;
-  background-color: #5e5e5e;
-  font-weight: bold;
 }
