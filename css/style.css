@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Nunito|Titillium+Web&display=swap');
+
+body {
+  text-align: center;
+  color: white;
+  background: grey;
+  font-family: "Titillium Web";
+}
+
+.navi-containter {
+  padding-top: 4vh;
+  padding-bottom: 1vh;
+}
+
+ul.navi {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 60%;
+  background-color: #2e2e2e;
+  border-radius: 8px;
+}
+
+.navi li {
+  display: inline-block;
+}
+
+.navi li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 42px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+.navi li a:hover {
+  background-color: #0f0f0f;
+}
+
+.topic-head {
+  background: #6b6b6b;
+}
+
+.resumebody ul {
+  display:table;
+  margin:0 auto;
+}
+.resumebody ul li {
+  text-align: left;
+}
+
+.resume {
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 1vh;
+  padding-top:0px;
+  padding-bottom: 3vh;
+  width: 70vh;
+}
+.resume h2 {
+  padding-top: 2vh;
+}
+.resume.info {
+  background: #5f7d56;
+}
+.resume.education {
+  background: #567d6f;
+}
+.resume.experience {
+  background: #566e7d;
+}
+.resume.skills {
+  background: #5a567d;
+}
+.resume.accomplishments {
+  background: #7d7156;
+}
