@@ -95,7 +95,15 @@ ul.navi {
   //font-family: "Mansalva";
   width: 40%;
 }
-
+.topic-desc {
+  margin: 0 auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background: #4d4d4d;
+  padding: 2vh;
+  width: 50vw;
+  font-size: large;
+}
 .resumebody ul {
   display:table;
   margin:0 auto;
@@ -129,4 +137,8 @@ ul.navi {
 }
 .resume.accomplishments {
   background: #7d7156;
+}
+
+.elec-img {
+  width: 30%;
 }
