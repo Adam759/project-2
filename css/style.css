@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Nunito|Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Mansalva|Titillium+Web&display=swap');
 
 body {
   text-align: center;
@@ -41,6 +41,27 @@ ul.navi {
 
 .topic-head {
   background: #6b6b6b;
+  font-family: "Mansalva";
+}
+
+.toplink {
+  display: inline-block;
+  background: #6b6b6b;
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 2vh;
+  padding: 1vh;
+  color: white;
+}
+
+.copyright {
+  font-family: "Verdana";
+  color: black;
+  font-size: small;
+}
+
+.toplink:hover {
+  background-color: #0f0f0f;
 }
 
 .resumebody ul {
@@ -76,4 +97,14 @@ ul.navi {
 }
 .resume.accomplishments {
   background: #7d7156;
+}
+
+.electrical-info {
+  font-size: large;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 3vh;
+  width: 120vh;
+  background-color: #5e5e5e;
+  font-weight: bold;
 }
