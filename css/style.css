@@ -7,12 +7,19 @@ body {
   font-family: "Titillium Web";
 }
 
+.top-banner {
+  font-size: 500%;
+  font-family: "Mansalva";
+  color: grey;
+  margin: 0 auto;
+}
+
 hr {
   border: 3px solid #a6a6a6;
 }
 
 .navi-containter {
-  padding-top: 4vh;
+  padding-top: 1vh;
   padding-bottom: 1vh;
 }
 
@@ -104,9 +111,14 @@ ul.navi {
   width: 50vw;
   font-size: large;
 }
+
+.resumebody {
+  font-size: 110%;
+}
+
 .resumebody ul {
-  display:table;
-  margin:0 auto;
+  display: table;
+  margin: 0 auto;
 }
 .resumebody ul li {
   text-align: left;
@@ -118,7 +130,7 @@ ul.navi {
   padding: 1vh;
   padding-top:0px;
   padding-bottom: 3vh;
-  width: 70vh;
+  width: 38vw;
 }
 .resume h2 {
   padding-top: 2vh;
@@ -141,4 +153,11 @@ ul.navi {
 
 .elec-img {
   width: 30%;
+}
+.sl-img {
+  height: 30vh;
+}
+.sl-iframe {
+  height: 30vh;
+  width: 27%
 }
