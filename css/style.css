@@ -96,10 +96,11 @@ ul.navi {
   margin: 0 auto;
   margin-top: 2vh;
   border-radius: 15px;
-  padding: 3vh;
-  width: 120vh;
+  padding: 2em;
+  width: 70vw;
   background-color: #525252;
   font-weight: bold;
+  line-height: 1.3;
 }
 .topic-subhead {
   margin: 0 auto;
