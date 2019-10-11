@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Mansalva|Titillium+Web&display=swap');
-
 body {
   text-align: center;
   color: white;
   background: #3d3d3d;
   font-family: "Titillium Web";
 }
-
 h1 {
   font-size: 200%;
   margin: 0 auto;
@@ -14,28 +12,23 @@ h1 {
   padding: 0.5em;
   font-weight: bold;
 }
-
 h2 {
   font-size: 170%;
   margin: 0 auto;
   padding: 0.8vh;
   font-weight: bold;
 }
-
 h3 {
   font-size: 120%;
   margin: 0 auto;
   font-weight: bold;
 }
-
 em {
   font-style: italic;
 }
-
 strong {
   font-weight: bold;
 }
-
 .top-banner {
   font-size: 62pt;
   font-family: "Mansalva";
@@ -44,7 +37,6 @@ strong {
   margin-top: 0.3em;
   margin-bottom: 0.3em;
 }
-
 hr {
   border: 3px solid #a6a6a6;
 }
@@ -52,7 +44,6 @@ hr {
 .navi-containter {
   margin: 0 auto;
 }
-
 ul.navi {
   list-style-type: none;
   margin: 0 auto;
@@ -61,11 +52,9 @@ ul.navi {
   background-color: #2e2e2e;
   border-radius: 8px;
 }
-
 .navi li {
   display: inline-block;
 }
-
 .navi li a {
   display: block;
   color: white;
@@ -75,11 +64,9 @@ ul.navi {
   font-size: large;
   font-weight: bold;
 }
-
 .navi li a:hover {
   background-color: #0f0f0f;
 }
-
 .toplink {
   display: inline-block;
   background: #6b6b6b;
@@ -89,11 +76,9 @@ ul.navi {
   padding: 1vh;
   color: white;
 }
-
 .toplink:hover {
   background-color: #0f0f0f;
 }
-
 .copyright {
   font-family: "Verdana";
   color: black;
@@ -102,12 +87,10 @@ ul.navi {
   margin-top: 1vh;
   margin-bottom: 1vh;
 }
-
 .topic-head {
   background: #525252;
   font-family: "Mansalva";
 }
-
 .topic-info {
   font-size: large;
   margin: 0 auto;
@@ -118,7 +101,6 @@ ul.navi {
   background-color: #525252;
   font-weight: bold;
 }
-
 .topic-subhead {
   margin: 0 auto;
   margin-top: 2vh;
@@ -127,7 +109,6 @@ ul.navi {
   font-family: "Mansalva";
   width: 90%;
 }
-
 .topic-subhead2 {
   margin: 0 auto;
   margin-top: 2vh;
@@ -145,12 +126,10 @@ ul.navi {
   width: 50vw;
   font-size: large;
 }
-
 .resumebody {
   font-size: 110%;
   line-height: 2.5;
 }
-
 .resumebody ul {
   list-style: disc outside none;
   display: table;
@@ -160,7 +139,6 @@ ul.navi {
   text-align: left;
   line-height: 1.5;
 }
-
 .resume {
   margin: 0 auto;
   margin-top: 2vh;
@@ -189,7 +167,6 @@ ul.navi {
 .resume.accomplishments {
   background: #7d7156;
 }
-
 .elec-img {
   width: 30%;
 }
@@ -202,4 +179,5 @@ ul.navi {
   width: 27%;
   margin: 0 auto;
   vertical-align: bottom;
+  border: 0;
 }
