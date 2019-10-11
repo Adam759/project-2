@@ -7,11 +7,42 @@ body {
   font-family: "Titillium Web";
 }
 
+h1 {
+  font-size: 200%;
+  margin: 0 auto;
+  margin-top: 1%;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 170%;
+  margin: 0 auto;
+  padding: 0.8vh;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 120%;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
 .top-banner {
-  font-size: 500%;
+  font-size: 62pt;
   font-family: "Mansalva";
   color: grey;
   margin: 0 auto;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
 }
 
 hr {
@@ -19,8 +50,7 @@ hr {
 }
 
 .navi-containter {
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  margin: 0 auto;
 }
 
 ul.navi {
@@ -68,6 +98,9 @@ ul.navi {
   font-family: "Verdana";
   color: black;
   font-size: small;
+  margin: 0 auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
 
 .topic-head {
@@ -78,6 +111,7 @@ ul.navi {
 .topic-info {
   font-size: large;
   margin: 0 auto;
+  margin-top: 2vh;
   border-radius: 15px;
   padding: 3vh;
   width: 120vh;
@@ -114,18 +148,23 @@ ul.navi {
 
 .resumebody {
   font-size: 110%;
+  line-height: 2.5;
 }
 
 .resumebody ul {
+  list-style: disc outside none;
   display: table;
   margin: 0 auto;
 }
 .resumebody ul li {
   text-align: left;
+  line-height: 1.5;
 }
 
 .resume {
   margin: 0 auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   border-radius: 15px;
   padding: 1vh;
   padding-top:0px;
@@ -156,8 +195,11 @@ ul.navi {
 }
 .sl-img {
   height: 30vh;
+  margin: 0 auto;
 }
 .sl-iframe {
   height: 30vh;
-  width: 27%
+  width: 27%;
+  margin: 0 auto;
+  vertical-align: bottom;
 }
