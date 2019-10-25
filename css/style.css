@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Mansalva|Titillium+Web&display=swap');
+/*Start Global CSS*/
+/*Main Elements*/
 body {
   text-align: center;
   color: white;
@@ -39,12 +41,14 @@ strong {
 }
 hr {
   border: 3px solid #a6a6a6;
+  margin: 5vh 0 5vh 0;
 }
 
-.navi-containter {
-  margin: 0 auto;
+/*Navigation*/
+nav {
+    display: inline;
 }
-ul.navi {
+nav ul {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -52,10 +56,10 @@ ul.navi {
   background-color: #2e2e2e;
   border-radius: 8px;
 }
-.navi li {
+nav li {
   display: inline-block;
 }
-.navi li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -64,9 +68,11 @@ ul.navi {
   font-size: large;
   font-weight: bold;
 }
-.navi li a:hover {
+nav li a:hover {
   background-color: #0f0f0f;
 }
+
+/*Page Footer Elements*/
 .toplink {
   display: inline-block;
   background: #6b6b6b;
@@ -84,13 +90,17 @@ ul.navi {
   color: black;
   font-size: small;
   margin: 0 auto;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+  margin-top: 5vh;
+  margin-bottom: 4vh;
 }
+
+/*Topic Headlines*/
 .topic-head {
   background: #525252;
   font-family: "Mansalva";
 }
+
+/*Topic Info Blocks*/
 .topic-info {
   font-size: large;
   margin: 0 auto;
@@ -102,6 +112,8 @@ ul.navi {
   font-weight: bold;
   line-height: 1.3;
 }
+
+/*Topic Subheadlines*/
 .topic-subhead {
   margin: 0 auto;
   margin-top: 2vh;
@@ -117,6 +129,8 @@ ul.navi {
   background: #4d4d4d;
   width: 40%;
 }
+
+/*Topic Subdescriptions*/
 .topic-desc {
   margin: 0 auto;
   margin-top: 2vh;
@@ -126,6 +140,10 @@ ul.navi {
   width: 50vw;
   font-size: large;
 }
+/*End Global CSS*/
+
+/*Start Individual Pages*/
+/*Resume Page*/
 .resumebody {
   font-size: 110%;
   line-height: 2.5;
@@ -141,16 +159,13 @@ ul.navi {
 }
 .resume {
   margin: 0 auto;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-top: 17px;
+  margin-bottom: 17px;
   border-radius: 15px;
-  padding: 1vh;
+  padding: 10px;
   padding-top:0px;
-  padding-bottom: 3vh;
-  width: 38vw;
-}
-.resume h2 {
-  padding-top: 2vh;
+  padding-bottom: 42px;
+  width: 700px;
 }
 .resume.info {
   background: #5f7d56;
@@ -167,9 +182,13 @@ ul.navi {
 .resume.accomplishments {
   background: #7d7156;
 }
+
+/*Electrical Page*/
 .elec-img {
   width: 30%;
 }
+
+/*Street Light Page*/
 .sl-img {
   height: 30vh;
   margin: 0 auto;
@@ -181,3 +200,9 @@ ul.navi {
   vertical-align: bottom;
   border: 0;
 }
+
+/*I kept these syles inside this main css
+file since there was not a lot. It would be
+more costly with regard to resources to
+make separate files for such a small amount
+of styling, based on my research.*/
